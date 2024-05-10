@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://x01amrnf5hkw"]
+
+[ext_resource type="Texture2D" uid="uid://b037arccb7ame" path="res://assets/sprites/platforms.png" id="1_51f7s"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_37s6f"]
+size = Vector2(32, 8)
+
+[node name="Tomb Platform" type="AnimatableBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_51f7s")
+region_enabled = true
+region_rect = Rect2(16, 16, 32, 9)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_37s6f")
+one_way_collision = true
