@@ -24,9 +24,21 @@ GameManager="*res://scenes/game_manager.tscn"
 
 window/stretch/mode="viewport"
 
+[file_customization]
+
+folder_colors={
+"res://assets/": "red",
+"res://exports/": "blue",
+"res://scenes/": "yellow",
+"res://scripts/": "green"
+}
+
 [gui]
 
 theme/custom_font="res://assets/fonts/PixelOperator8.ttf"
+theme/default_font_antialiasing=0
+theme/default_font_hinting=0
+theme/default_font_subpixel_positioning=0
 
 [input]
 

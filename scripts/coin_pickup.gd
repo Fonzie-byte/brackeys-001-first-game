@@ -11,5 +11,4 @@ func _on_body_entered(body):
 
 
 func count_coins():
-	print("Asking to count")
 	GameManager.count_coins()

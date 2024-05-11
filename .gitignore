@@ -5,7 +5,6 @@
 .import/
 export.cfg
 export_presets.cfg
-exports/
 
 # Imported translations (automatically generated from CSV files)
 *.translation
@@ -14,3 +13,7 @@ exports/
 .mono/
 data_*/
 mono_crash.*.json
+
+# My own additional ignores
+exports/
+assets/origin/

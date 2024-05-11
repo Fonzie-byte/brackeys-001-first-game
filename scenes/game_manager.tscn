@@ -1,26 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://c1vtpny7jwvb"]
+[gd_scene load_steps=2 format=3 uid="uid://c1vtpny7jwvb"]
 
 [ext_resource type="Script" path="res://scripts/game_manager.gd" id="1_781io"]
-[ext_resource type="FontFile" uid="uid://bu8bcbymo81w3" path="res://assets/fonts/PixelOperator8-Bold.ttf" id="2_caga7"]
 
 [node name="GameManager" type="Node"]
 script = ExtResource("1_781io")
-
-[node name="lblPoints" type="Label" parent="."]
-offset_left = 1259.0
-offset_top = -188.0
-offset_right = 1380.0
-offset_bottom = -165.0
-theme_override_colors/font_color = Color(0.0117647, 0.14902, 0.34902, 1)
-theme_override_fonts/font = ExtResource("2_caga7")
-theme_override_font_sizes/font_size = 8
-text = "You scored
-no points..."
-horizontal_alignment = 1
-autowrap_mode = 3
-
-[node name="CountCoinTimer" type="Timer" parent="."]
-wait_time = 0.6
-one_shot = true
-
-[connection signal="timeout" from="CountCoinTimer" to="." method="_on_count_coin_timer_timeout"]

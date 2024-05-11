@@ -251,11 +251,3 @@ zoom = Vector2(4, 4)
 limit_bottom = 120
 limit_smoothed = true
 position_smoothing_enabled = true
-
-[node name="lblScore" type="Label" parent="Camera2D"]
-offset_left = -136.0
-offset_top = -76.0
-offset_right = -64.0
-offset_bottom = -51.0
-theme_override_font_sizes/font_size = 8
-text = "Pts. 0"
