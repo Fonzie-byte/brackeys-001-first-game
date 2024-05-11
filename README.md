@@ -5,5 +5,5 @@ Followed Brackeys tutorial at https://www.youtube.com/watch?v=LOhfqjmasi0 and tr
 - [x] Re-spawn
 - [x] Death sound
 	- [ ] Don't move after die
-- [ ] UI
+- [x] UI
 - [ ] Attack (to fight enemies)
